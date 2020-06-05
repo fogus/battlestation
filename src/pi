@@ -1,0 +1,3 @@
+% inittab
+# Spawn a getty on Raspberry Pi serial line
+T1:23:respawn:/sbin/getty -L ttyUSB0 19200 trs100
